@@ -4,8 +4,7 @@ __pycache__/
 .venv/
 .env
 
-# Model file (optional, if private/large)
-random_forest_model.pkl
+
 
 # Docker
 *.tar
