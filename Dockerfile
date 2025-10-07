@@ -7,7 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app.py .
 COPY random_forest_model.pkl .
-COPY .env .
+# COPY .env .
 
 EXPOSE 8000
 
