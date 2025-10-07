@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  rf-api:
+    build: .
+    ports:
+      - "80:8000"
+    environment:
+      - CUSTOM_THRESHOLD=0.2

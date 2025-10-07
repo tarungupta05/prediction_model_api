@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Model file (optional, if private/large)
+random_forest_model.pkl
+
+# Docker
+*.tar
+.DS_Store
